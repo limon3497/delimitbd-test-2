@@ -1047,7 +1047,7 @@ DELIMIT is a Dhaka-based architectural consultancy firm founded by Architect Lim
                 </h6>
                 <h5 class="card-title mt-3">See more ideas about Travel</h5>
                 <p class="card-text my-3">
-                  <!DOCTYPE html>
+               <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -1079,7 +1079,7 @@ DELIMIT is a Dhaka-based architectural consultancy firm founded by Architect Lim
             max-width: 900px;
             margin: auto;
             background: #fff;
-            padding: 30px;
+            padding: 20px; /* reduced padding for better mobile fit */
             box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
         h2 {
@@ -1088,6 +1088,7 @@ DELIMIT is a Dhaka-based architectural consultancy firm founded by Architect Lim
         }
         ul {
             margin: 10px 0 20px 20px;
+            padding-left: 18px; /* reduced from default to save space */
         }
         .highlight {
             background: #e8f4fa;
@@ -1101,6 +1102,17 @@ DELIMIT is a Dhaka-based architectural consultancy firm founded by Architect Lim
             color: #777;
             padding: 20px;
             margin-top: 40px;
+        }
+        /* Mobile adjustments */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+                margin: 0 10px; /* keeps small margin from screen edge */
+            }
+            ul {
+                padding-left: 16px; /* less indent for bullets */
+                margin-left: 5px;
+            }
         }
     </style>
 </head>
@@ -1168,6 +1180,7 @@ DELIMIT is a Dhaka-based architectural consultancy firm founded by Architect Lim
         &copy; 2025 DELIMIT. All Rights Reserved.
     </footer>
 </body>
+</html>
 </html>
                 </p>
               </div>
