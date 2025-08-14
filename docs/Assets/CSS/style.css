@@ -100,7 +100,7 @@ html {
 .linedTitle__sub {
   font-size: 32px;
   color: #1e1e1e;
-  text-transform: capitalize;
+  text-transform: none;
   position: relative;
 }
 
