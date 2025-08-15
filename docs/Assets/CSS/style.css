@@ -600,3 +600,16 @@ a.form__button:hover {
 }
 
 /*************************************************************************************************/
+/* ===== Custom Colors ===== */
+
+/* Text colors */
+.text-orange { color: #FFA500 !important; }   /* Orange */
+.text-olive { color: #808000 !important; }    /* Olive */
+.text-skyblue { color: #87CEEB !important; }  /* Sky Blue */
+.text-deepgray { color: #333333 !important; } /* Deep Gray */
+
+/* Background colors */
+.bg-orange { background-color: #FFA500 !important; }
+.bg-olive { background-color: #808000 !important; }
+.bg-skyblue { background-color: #87CEEB !important; }
+.bg-deepgray { background-color: #333333 !important; }
