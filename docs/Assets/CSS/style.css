@@ -613,3 +613,76 @@ a.form__button:hover {
 .bg-olive { background-color: #808000 !important; }
 .bg-skyblue { background-color: #87CEEB !important; }
 .bg-deepgray { background-color: #333333 !important; }
+
+/* ================================
+   Global Blog Typography Settings
+   ================================ */
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 400;   /* lighter than default bold */
+  color: #1e1e1e;
+  margin-bottom: 1rem;
+  text-align: left;   /* blog/article titles */
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #2c2c2c;
+  margin-bottom: 0.75rem;
+  text-align: left;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+p {
+  font-size: 1.1rem;
+  font-weight: 300;   /* light for readability */
+  line-height: 1.7;
+  text-align: justify;   /* ✅ fully justified paragraphs */
+  margin-bottom: 1rem;
+}
+
+/* Lists inside blog content */
+ul, ol {
+  margin-left: 1.5rem;  /* better spacing for bullets/numbers */
+  line-height: 1.6;
+}
+
+/* ================================
+   Exceptions for Centered Sections
+   ================================ */
+
+/* Services Section */
+.services__title,
+.service__title {
+  text-align: center !important;
+  font-weight: 400;    /* medium strong */
+}
+
+.services p {
+  text-align: center !important;
+  font-weight: 300;    /* lighter than title */
+  line-height: 1.6;
+}
+
+/* Testimonials Section */
+.testimonials__title,
+.testimonial__title {
+  text-align: center !important;
+  font-weight: 400;    /* medium strong */
+}
+
+.testimonials p {
+  text-align: center !important;
+  font-weight: 300;    /* lighter than title */
+  line-height: 1.6;
+}
+
