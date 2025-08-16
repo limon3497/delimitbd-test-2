@@ -615,15 +615,15 @@ a.form__button:hover {
 .bg-deepgray { background-color: #333333 !important; }
 
 /* ================================
-   Global Blog Typography Settings
+   Global Blog & Article Typography
    ================================ */
 
 h1 {
   font-size: 2.2rem;
-  font-weight: 400;   /* lighter than default bold */
+  font-weight: 400;   
   color: #1e1e1e;
   margin-bottom: 1rem;
-  text-align: left;   /* blog/article titles */
+  text-align: left;
 }
 
 h2 {
@@ -644,79 +644,44 @@ h3 {
 
 p {
   font-size: 1.1rem;
-  font-weight: 300;   /* light for readability */
+  font-weight: 300;   
   line-height: 1.7;
-  text-align: justify;   /* ✅ fully justified paragraphs */
+  text-align: justify;  /* fully justified paragraphs */
   margin-bottom: 1rem;
 }
 
 /* Lists inside blog content */
 ul, ol {
-  margin-left: 1.5rem;  /* better spacing for bullets/numbers */
+  margin-left: 1.5rem;
   line-height: 1.6;
 }
 
 /* ================================
-   Exceptions for Centered Sections
+   Services & Testimonials
    ================================ */
 
-/* Services Section */
 .services__title,
-.service__title {
-  text-align: center !important;
-  font-weight: 400;    /* medium strong */
-}
-
-.services p {
-  text-align: center !important;
-  font-weight: 300;    /* lighter than title */
-  line-height: 1.6;
-}
-
-/* Testimonials Section */
+.service__title,
 .testimonials__title,
 .testimonial__title {
   text-align: center !important;
-  font-weight: 400;    /* medium strong */
+  font-weight: 400;    
 }
 
+.services p,
 .testimonials p {
   text-align: center !important;
-  font-weight: 300;    /* lighter than title */
+  font-weight: 300;    
   line-height: 1.6;
 }
 
-
 /* ================================
-   Section Intro Paragraphs (auto target)
-   Only for intro paras, not all first paragraphs
+   Section Intro Paragraphs
+   Only paragraphs with __intro class will be centered
    ================================ */
 
-/* Services intro para */
-.services__intro {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  text-align: center;
-  font-weight: 300;
-  line-height: 1.7;
-}
-
-/* Portfolio intro para */
-.portfolio__intro {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  text-align: center;
-  font-weight: 300;
-  line-height: 1.7;
-}
-
-/* Blog intro para */
+.services__intro,
+.portfolio__intro,
 .blog__intro {
   max-width: 800px;
   margin-left: auto;
