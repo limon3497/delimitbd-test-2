@@ -686,3 +686,45 @@ ul, ol {
   line-height: 1.6;
 }
 
+/* ================================
+   Section Intro Paragraphs (auto target)
+   ================================ */
+
+/* Services intro para */
+.services__title + p,
+.service__title + p {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* Portfolio intro para */
+.portfolio__title + p,
+.portfolio p:first-of-type {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* Blog intro para */
+.blog__title + p,
+.blog p:first-of-type {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.7;
+}
