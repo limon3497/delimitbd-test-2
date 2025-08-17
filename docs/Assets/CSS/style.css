@@ -642,6 +642,10 @@ h3 {
   text-align: left;
 }
 
+.blue-title {
+  color: #007bff;
+}
+
 p {
   font-size: 1.1rem;
   font-weight: 300;   
