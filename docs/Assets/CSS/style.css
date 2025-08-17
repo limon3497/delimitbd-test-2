@@ -490,7 +490,35 @@ a.form__button:hover {
   background-color: #0078ff;
   border-color: #cde1f8;
 }
+.social-links {
+  margin: 20px 0;
+}
 
+.social-links a {
+  display: inline-block;
+  font-size: 28px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: transform 0.3s, color 0.3s;
+}
+
+/* LinkedIn */
+.social-links a.linkedin {
+  color: #0a66c2; /* LinkedIn blue */
+}
+.social-links a.linkedin:hover {
+  color: #004182;
+  transform: scale(1.2);
+}
+
+/* WhatsApp */
+.social-links a.whatsapp {
+  color: #25d366; /* WhatsApp green */
+}
+.social-links a.whatsapp:hover {
+  color: #128c7e;
+  transform: scale(1.2);
+}
 .footer__copyright,
 .footer__credits {
   color: #fff;
