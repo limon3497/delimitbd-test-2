@@ -304,8 +304,8 @@ html {
 }
 
 .review__img {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 100px;
+  max-height: 100px;
   object-fit: cover;
   margin: auto;
   border-radius: 50%;
