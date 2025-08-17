@@ -129,16 +129,47 @@
                     alt="about me image " />
                    </div>
               </div>
-              <div class="col-md-3 aboutD__list">
-                <div>
-                  <p class="item__list mb-3"><b>Name:</b> Limon Mahmud</p>
-                  <p class="item__list mb-3">
-                    <b>Profile:</b> b.arch(buet), miab | founder, DELIMIT
-                  </p>
-                  <p class="item__list mb-3">
-                    <b>Email:</b> limon@delimitbd.com
-                  </p>
-                  <p class="item__list mb-3"><b>Phone:</b> (880) 1713-148980</p>
+            <!-- HTML -->
+<div class="contact-info">
+  <p class="item__list"><b>Name:</b> Limon Mahmud</p>
+  <p class="item__list"><b>Profile:</b> b.arch(buet), miab | founder, DELIMIT</p>
+  <p class="item__list"><b>Email:</b> limon@delimitbd.com</p>
+  <p class="item__list"><b>Phone:</b> (880) 1713-148980</p>
+</div>
+
+<!-- CSS -->
+<style>
+.contact-info {
+    max-width: 400px; /* optional, adjust as needed */
+    margin: 0 auto;   /* centers the block */
+}
+
+.item__list {
+    margin: 0 0 8px 0;       /* bottom spacing only */
+    padding-left: 0;         /* remove default padding */
+    line-height: 1.4;        /* compact spacing */
+}
+
+.item__list b {
+    display: inline-block;
+    width: 90px;             /* reserve space for labels */
+    color: #1e1e1e;          /* optional: label color */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 480px) {
+    .item__list b {
+        width: 70px;          /* narrower label on small screens */
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .item__list b {
+        width: 60px;          /* further shrink for very small devices */
+    }
+}
+</style>
+/p>
               </div>
              </div>
             </div>
