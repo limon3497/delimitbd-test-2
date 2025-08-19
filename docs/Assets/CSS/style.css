@@ -730,3 +730,15 @@ ul, ol {
   font-weight: 300;
   line-height: 1.7;
 }
+
+/* Make all sections have equal spacing */
+section {
+  padding: 60px 15px;   /* 60px top/bottom, 15px left/right */
+}
+
+/* Mobile adjustment (optional) */
+@media (max-width: 768px) {
+  section {
+    padding: 40px 10px; /* less padding for small screens */
+  }
+}
