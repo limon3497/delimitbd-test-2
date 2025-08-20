@@ -733,12 +733,12 @@ ul, ol {
 
 /* Make all sections have equal spacing */
 section {
-  padding: 60px 5px;   /* 60px top/bottom, 15px left/right */
+  padding: 60px 15px;   /* 60px top/bottom, 15px left/right */
 }
 
 /* Mobile adjustment (optional) */
 @media (max-width: 768px) {
   section {
-    padding: 40px 7px; /* less padding for small screens */
+    padding: 40px 1px; /* less padding for small screens */
   }
 }
