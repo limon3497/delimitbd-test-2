@@ -742,3 +742,15 @@ section {
     padding: 40px 1px; /* less padding for small screens */
   }
 }
+
+.card-body {
+  padding: 1.5rem; /* uniform padding */
+}
+
+.card-title {
+  min-height: 50px; /* ensures titles align */
+}
+
+.card-text {
+  min-height: 100px; /* keeps equal body height across cards */
+}
